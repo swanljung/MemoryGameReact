@@ -1,0 +1,22 @@
+.card {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    background: white;
+}
+
+.card.match{
+    visibility: hidden;
+}
+
+.card .image {
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.card .image.flipped {
+    opacity: 1;
+}
