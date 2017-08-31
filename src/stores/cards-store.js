@@ -34,6 +34,7 @@ export default class CardsStore{
     @observable flippedCards = []
     @observable gameWon = false
 
+
     constructor(){
         this.cards = this.duplicatedAndShuffledCards()
     }

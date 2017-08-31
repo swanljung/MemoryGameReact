@@ -10,7 +10,7 @@ export default class Game extends React.Component {
     render() {
         const { cards } = this.props.cardsStore
         return (
-            <div>
+            <div className="game">
                 {this.props.cardsStore.gameWon === false &&
                 cards.map(card => (
                     <Card

@@ -4,3 +4,14 @@ body {
   font-family: sans-serif;
   background:gray;
 }
+
+.game{
+  text-align: center;
+}
+
+.game button{
+  height: 50px;
+  width: 100px;
+  background: green;
+  color: white;
+}
